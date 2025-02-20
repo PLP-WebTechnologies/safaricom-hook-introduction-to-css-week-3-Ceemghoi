@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics Demo</title>
+
+    <style>
+        .content-section {
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            background-color: #f0f0f0;
+            padding: 15px;
+        }
+
+        #special-content {
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+        }
+    </style>
+    <!-- Link to external CSS (Part 2) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Part 1: Different types of elements with various selectors -->
+    <h1>Welcome to CSS Basics</h1>
+    <div class="content-section">
+        <h2>About This Page</h2>
+        <!-- Inline CSS example (Part 2) -->
+        <p style="color: #2196F3;">This paragraph uses inline CSS for text color.</p>
+    </div>
+
+    <div class="content-section highlight">
+        <h2>Featured Content</h2>
+        <p>This section demonstrates class selectors with a different background.</p>
+    </div>
+
+    <!-- Element with unique ID -->
+    <div id="special-content" class="content-section">
+        <h2>Special Section</h2>
+        <p>This section has a unique ID and special border styling.</p>
+        <a href="#">Read more</a>
+    </div>
+
+    <!-- Part 3: Card Component -->
+    <div class="card">
+        <h3 class="card-title">Card Title</h3>
+        <p class="card-description">This is a simple card component demonstrating various CSS properties including padding, margin, background color, and border styling.</p>
+    </div>
+</body>
+</html>
